@@ -27,7 +27,7 @@ $linkColorHover: $color-yellow;
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 
 body {
-    background: $backgroundColor url('/assets/images/dark-bg.jpg') no-repeat center center;
+    background: $backgroundColor url('../assets/images/dark-bg.jpg') no-repeat center center;
 }
 
 .reveal {

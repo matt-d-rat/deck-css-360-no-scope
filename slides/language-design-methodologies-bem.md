@@ -1,0 +1,13 @@
+## BEM
+
+```css
+/* Block component */
+.btn {}
+
+/* Element that depends upon the block */ 
+.btn__price {}
+
+/* Modifier that changes the style of the block */
+.btn--orange {} 
+.btn--big {}
+```

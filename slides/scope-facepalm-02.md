@@ -1,0 +1,1 @@
+##  In CSS everything exists in the global scope

@@ -1,0 +1,12 @@
+{
+  "name": "deck-css-360-no-scope",
+  "version": "0.0.0",
+  "dependencies": {
+    "components-font-awesome": "~4.4.0",
+    "img-pulse": "~0.1.0",
+    "reveal-highlight-themes": "~8.3.0",
+    "reveal.js": "~2.6.1",
+    "roboto-fontface": "~0.4.3",
+    "webcomponentsjs": "~0.7.12"
+  }
+}

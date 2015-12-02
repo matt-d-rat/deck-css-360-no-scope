@@ -1,0 +1,1 @@
+![Holy Trinity](assets/images/holy-trinity.png)

@@ -1,0 +1,170 @@
+[
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-background": "assets/images/360-no-scope.gif",
+            "data-state": "greyscale-overlay"
+        }
+    },
+    "about-matt.md",
+    {
+        "filename": "scope.md",
+        "attr": {
+            "data-state": "shout"
+        }
+    },
+    "scope-definition.md",
+    "javascript-scope.md",
+    "scope-importance.md",
+    {
+        "filename": "scope-awesome.md",
+        "attr": {
+            "data-background": "assets/images/win-the-internet.gif",
+            "data-state": "greyscale-overlay"
+        }
+    },
+    "scope-what-about-css.md",
+    {
+        "filename": "scope-facepalm-01.md",
+        "attr": {
+            "data-background": "assets/images/facepalm.gif"
+        }
+    },
+    {
+        "filename": "scope-facepalm-02.md",
+        "attr": {
+            "data-background": "assets/images/facepalm.gif",
+            "data-state": "greyscale-overlay"
+        }
+    },
+    "specificity-wars.md",
+    "css-headache.md",
+    {
+        "filename": "css-local-scope-shout.md",
+        "attr": {
+            "data-state": "shout"
+        }
+    },
+    "language-design-methodologies.md",
+    "language-design-methodologies-bem.md",
+    "language-design-methodologies-suitcss.md",
+    {
+        "filename": "not-quite-right.md",
+        "attr": {
+            "data-background": "assets/images/not-quite-right.gif",
+            "data-state": "greyscale-overlay"
+        }
+    },
+    "problems-with-language-design-methodologies.md",
+    "css-modules.md",
+    "what-are-css-modules.md",
+    "benefits-of-css-modules.md",
+    {
+        "filename": "css-modules-explained-compile.md",
+        "attr": {
+            "data-state": "shout"
+        }
+    },
+    "css-modules-explained-compile-02.md",
+    "css-modules-explained-compile-03.md",
+    {
+        "filename": "css-modules-using-hash.md",
+        "attr": {
+            "data-state": "shout"
+        }
+    },
+    "web-trinity.md",
+    "css-modules-explained-import-css.md",
+    "css-modules-explained-import-css-output.md",
+    {
+        "filename": "still-need-global.md",
+        "attr": {
+            "data-state": "shout"
+        }
+    },
+    "css-modules-explained-global.md",
+    {
+        "filename": "mind-blown.md",
+        "attr": {
+            "data-background": "assets/images/mind-blown.gif"
+        }
+    },
+    {
+        "filename": "mind-blown-02.md",
+        "attr": {
+            "data-background": "assets/images/mind-blown.gif",
+            "data-state": "greyscale-overlay"
+        }
+    },
+    {
+        "filename": "mind-blown-03.md",
+        "attr": {
+            "data-background": "assets/images/mind-blown.gif",
+            "data-state": "greyscale-overlay"
+        }
+    },
+    {
+        "filename": "demo.md",
+        "attr": {
+            "data-state": "shout"
+        }
+    },
+    "demo-npm-dependencies.md",
+    "demo-webpack-config.md",
+    "demo-webpack-dev-server.md",
+    "demo-css-modules.md",
+    "demo-preprocessor-support.md",
+    "demo-build-environment-config.md",
+    {
+        "filename": "demo-success.md",
+        "attr": {
+            "data-background": "assets/images/success-kid.jpg"
+        }
+    },
+    {
+        "filename": "limitations-of-css-modules.md",
+        "attr": {
+            "data-state": "shout"
+        }
+    },
+    "limitations-of-css-modules-explained.md",
+    {
+        "filename": "scope-at-language-level.md",
+        "attr": {
+            "data-state": "shout"
+        }
+    },
+    {
+        "filename": "css-scope-future.md",
+        "attr": {
+            "data-background": "assets/images/back-to-the-future.gif",
+            "data-state": "greyscale-overlay"
+        }
+    },
+    "css-scope-pseudo-class.md",
+    "css-scope-pseudo-class-example.md",
+    "css-scope-at-rule.md",
+    "css-scope-at-rule-explained.md",
+    {
+        "filename": "language-scope-however.md",
+        "attr": {
+            "data-state": "shout"
+        }
+    },
+    "scoped-css-browser-support.md",
+    {
+        "filename": "shadow-dom.md",
+        "attr": {
+            "data-state": "shout"
+        }
+    },
+    "shadow-dom-explained-01.md",
+    "shadow-dom-explained-02.md",
+    "summary.md",
+    {
+        "filename": "thanks.md",
+        "attr": {
+            "data-state": "shout"
+        }
+    }
+]

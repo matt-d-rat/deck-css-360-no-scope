@@ -1,0 +1,236 @@
+// Set paths for fonts
+$roboto-font-path: '../bower_components/roboto-fontface/fonts';
+$fa-font-path: '../bower_components/components-font-awesome/fonts';
+
+@import "../../bower_components/reveal.js/css/theme/template/mixins";
+@import "../../bower_components/reveal.js/css/theme/template/settings";
+@import "../../bower_components/roboto-fontface/css/roboto-fontface.scss";
+@import "colors";
+
+// Override theme settings ---------------------
+$backgroundColor: $color-white;
+$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
+$headingColor: $color-yellow;
+$headingFont: 'Roboto-Bold', sans-serif;
+$headingTextShadow: none;
+$heading1TextShadow: none;
+$headingTextTransform: none;
+$mainFont: 'Roboto-Regular', sans-serif;
+$mainColor: $color-white;
+$linkColor: $color-yellow;
+$linkColorHover: $color-yellow;
+
+// Background generator ------------------------
+@mixin bodyBackground() {}
+
+// Theme template ------------------------------
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+
+body {
+    background: $backgroundColor url('../../assets/images/dark-bg.jpg') no-repeat center center;
+}
+
+.reveal {
+    @import "../../bower_components/components-font-awesome/scss/font-awesome";
+
+    ol,
+    ul {
+        margin: 1em 0 1em 1em;
+
+        ul,
+        ol {
+            margin-top: 0.6em;
+            margin-bottom: 0.6em;
+        }
+    }
+
+    table {
+        border-collapse: collapse;
+
+        th,
+        td {
+            font-size: 0.7em;
+            padding: 0.4em 1em;
+        }
+
+        th {
+            border-bottom: 1px solid lighten( $color-grey, 24% );
+            color: $color-yellow;
+        }
+
+        tr:nth-child(even) {
+            td {
+                background-color: lighten( $color-blue, 44% );    
+            }
+        }
+    }
+
+    hr {
+        background-color: $color-grey;
+        height: 2px;
+        border: none;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    pre {
+        code {
+            border: 1px solid rgba($color-white, 0.5);
+            padding: 1rem;
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 4rem;
+    }
+}
+
+.greyscale {
+    .slide-background {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+}
+
+.bg-overlay {
+    .slide-background { 
+        &::after {
+            content: '';
+            background-color: rgba($color-black, 0.8);
+            display: block;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.greyscale-overlay {
+    .slide-background {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+
+        &::after {
+            content: '';
+            background-color: rgba($color-black, 0.6);
+            display: block;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.shout {
+    body {
+        background: $color-yellow;
+    }
+    
+    .reveal {
+        color: $color-black;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        a,
+        a:hover {
+            color: $color-black;
+        }
+
+        .controls {
+            div.navigate-left,
+            div.navigate-left.enabled,
+            div.navigate-left.enabled:hover {
+                border-right-color: $color-black;
+            }
+
+            div.navigate-right,
+            div.navigate-right.enabled,
+            div.navigate-right.enabled:hover {
+                border-left-color: $color-black;
+            }
+
+            div.navigate-up,
+            div.navigate-up.enabled,
+            div.navigate-up.enabled:hover {
+                border-bottom-color: $color-black;
+            }
+
+            div.navigate-down,
+            div.navigate-down.enable,
+            div.navigate-down.enabled:hover {
+                 border-top-color: $color-black;
+            }
+        }
+
+        .progress span {
+            background: $color-black;
+        }
+
+        hr {
+            background-color: $color-black;
+        }
+    }
+}
+
+.About {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+.About-item {
+    display: block;
+    flex: 1;
+    min-width: 240px;
+}
+
+.About-item-social {
+    color: $color-white !important;
+    font-size: 80px !important;
+}
+
+.About-item-social--twitter {
+    &:hover {
+        color: $color-yellow !important;
+    }
+}
+
+.About-item-social--linkedin {
+    &:hover {
+        color: $color-yellow !important;
+    }
+}
+
+.About-item-social--github {
+    &:hover {
+        color: $color-yellow !important;
+    }
+}
+
+.About-item-social--stackoverflow {
+    &:hover {
+        color: $color-yellow !important;
+    }
+}
+
+img-pulse {
+    position: relative;
+    z-index: 0;
+}
+
+.css-modules-logo {
+    border: none !important;
+    background: none !important;
+    height: 70vh;
+}

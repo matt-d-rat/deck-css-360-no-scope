@@ -249,7 +249,7 @@ body {
   color: #FFEB3B; }
 
 body {
-  background: #000000 url("/assets/images/dark-bg.jpg") no-repeat center center; }
+  background: #000000 url("../assets/images/dark-bg.jpg") no-repeat center center; }
 
 .reveal {
   /*!

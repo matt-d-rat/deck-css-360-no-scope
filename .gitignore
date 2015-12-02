@@ -11,3 +11,4 @@ bower_components
 projectFilesBackup
 
 .DS_Store
+/dist/

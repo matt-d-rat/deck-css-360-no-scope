@@ -8,3 +8,10 @@ The use of encapsulation or scoping allows us to shape our application architect
     <li class="fragment">Avoid namespace collisions or accidentally overriding another part of the application by a later declaration</li>
 </ul>
 
+<aside class="notes">
+    <ul>
+        <li>Restricting access to some of the components implementation, allowing us to define a clear interface</li>
+    <li>Facilitate the bundling of data with the methods</li>
+    <li>Avoid namespace collisions or accidentally overriding another part of the application by a later declaration</li>
+    </ul>
+</aside>

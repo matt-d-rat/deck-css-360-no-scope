@@ -7,3 +7,11 @@ __Modular__ and __reusable__ CSS!
     <li class="fragment">Explicit dependencies.</li>
     <li class="fragment">No global scope.</li>
 </ul>
+
+<aside class="notes">
+    <ul>
+        <li>No more conflicts.</li>
+        <li>Explicit dependencies.</li>
+        <li>No global scope.</li>
+    </ul>
+</aside>

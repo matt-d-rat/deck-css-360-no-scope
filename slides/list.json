@@ -160,6 +160,12 @@
     },
     "shadow-dom-explained-01.md",
     "shadow-dom-explained-02.md",
+    {
+        "filename": "tldr.md",
+        "attr": {
+            "data-state": "shout"
+        }
+    },
     "summary.md",
     {
         "filename": "thanks.md",

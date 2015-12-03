@@ -19,3 +19,10 @@
     background-color: green;
 }
 ```
+
+<aside class="notes">
+    <ul>
+        <li>More specific selectors will win.</li>
+        <li>Background colour will be red.</li>
+    </ul>
+</aside>

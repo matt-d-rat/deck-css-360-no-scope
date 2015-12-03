@@ -13,3 +13,9 @@ function presentation() {
     // Code here can use the variable 'topic'
 }
 ```
+
+<aside class="notes">
+    <ul>
+        <li>Lexical scope, or function Scoping</li>
+    </ul>
+</aside>
